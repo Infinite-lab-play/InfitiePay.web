@@ -234,7 +234,7 @@ footer{padding:50px 0 40px;border-top:1px solid var(--line);margin-top:40px}
     <div class="grid-price">
       <div class="plan reveal">
         <h3>Anuncio Básico</h3>
-        <div class="price">$49<span>/proyecto</span></div>
+        <div class="price">$49.9<span>/proyecto</span></div>
         <p style="color:var(--muted);font-size:14px">Ideal para empezar.</p>
         <ul>
           <li>1 anuncio creativo</li>
@@ -273,22 +273,16 @@ footer{padding:50px 0 40px;border-top:1px solid var(--line);margin-top:40px}
   </div>
 </section>
 
-<!-- CONTACTO -->
-<section id="contacto" class="block">
-  <div class="container">
-    <div class="contact-card reveal">
-      <h2>¿Listo para crear algo 🔥?</h2>
-      <p>Cuéntame tu proyecto y te respondo en menos de 24 horas con una propuesta.</p>
-      <form onsubmit="this.querySelector('.ok').style.display='block';return false;">
-        <input type="text" placeholder="Tu nombre" required>
-        <input type="email" placeholder="Tu correo electrónico" required>
-        <textarea placeholder="Cuéntame qué necesitas (anuncio, web...)" required></textarea>
-        <button type="submit" class="btn btn-primary" style="justify-content:center">Enviar mensaje →</button>
-        <p class="ok" style="display:none;color:var(--accent3);text-align:center">¡Gracias! Conecta este formulario a tu correo o a un servicio como Formspree para recibir los mensajes.</p>
-      </form>
-    </div>
-  </div>
-</section>
+<!-- ====== BOTÓN FLOTANTE DE WHATSAPP ====== -->
+<!-- Pega este bloque justo ANTES de la etiqueta </body> (al final del archivo) -->
+
+<a href="https://wa.me/51998271066?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20sus%20servicios"
+   target="_blank"
+   style="position:fixed;bottom:24px;right:24px;z-index:999;width:60px;height:60px;border-radius:50%;
+          background:#25D366;display:flex;align-items:center;justify-content:center;
+          box-shadow:0 8px 24px rgba(37,211,102,.5);text-decoration:none;font-size:30px">
+  💬
+</a>
 
 <footer>
   <div class="container foot-inner">
